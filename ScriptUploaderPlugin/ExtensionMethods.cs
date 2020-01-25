@@ -9,6 +9,7 @@ namespace ScriptUploaderPlugin
           this IAppBuilder app, SpaceEngineersGame spaceEngineersGame)
         {
             app.Use<ScriptUploaderMiddleware>(spaceEngineersGame);
+            app.Use<ScriptUploaderMiddleware>(spaceEngineersGame);
             return app;
         }
     }

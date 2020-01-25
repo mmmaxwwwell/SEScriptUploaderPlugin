@@ -1,0 +1,492 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "Microsoft.Owin/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        }
+      },
+      "Microsoft.Owin.Diagnostics/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.0.1",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Diagnostics.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Diagnostics.dll": {}
+        }
+      },
+      "Microsoft.Owin.Host.HttpListener/4.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        }
+      },
+      "Microsoft.Owin.Host.SystemWeb/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.0.1",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {}
+        }
+      },
+      "Microsoft.Owin.Hosting/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.0.1",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        }
+      },
+      "Microsoft.Owin.SelfHost/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.0.1",
+          "Microsoft.Owin.Diagnostics": "4.0.1",
+          "Microsoft.Owin.Host.HttpListener": "4.0.1",
+          "Microsoft.Owin.Hosting": "4.0.1",
+          "Owin": "1.0.0"
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win": {
+      "Microsoft.Owin/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        }
+      },
+      "Microsoft.Owin.Diagnostics/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.0.1",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Diagnostics.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Diagnostics.dll": {}
+        }
+      },
+      "Microsoft.Owin.Host.HttpListener/4.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        }
+      },
+      "Microsoft.Owin.Host.SystemWeb/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.0.1",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {}
+        }
+      },
+      "Microsoft.Owin.Hosting/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.0.1",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        }
+      },
+      "Microsoft.Owin.SelfHost/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.0.1",
+          "Microsoft.Owin.Diagnostics": "4.0.1",
+          "Microsoft.Owin.Host.HttpListener": "4.0.1",
+          "Microsoft.Owin.Hosting": "4.0.1",
+          "Owin": "1.0.0"
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x64": {
+      "Microsoft.Owin/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        }
+      },
+      "Microsoft.Owin.Diagnostics/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.0.1",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Diagnostics.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Diagnostics.dll": {}
+        }
+      },
+      "Microsoft.Owin.Host.HttpListener/4.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        }
+      },
+      "Microsoft.Owin.Host.SystemWeb/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.0.1",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {}
+        }
+      },
+      "Microsoft.Owin.Hosting/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.0.1",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        }
+      },
+      "Microsoft.Owin.SelfHost/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.0.1",
+          "Microsoft.Owin.Diagnostics": "4.0.1",
+          "Microsoft.Owin.Host.HttpListener": "4.0.1",
+          "Microsoft.Owin.Hosting": "4.0.1",
+          "Owin": "1.0.0"
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x86": {
+      "Microsoft.Owin/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        }
+      },
+      "Microsoft.Owin.Diagnostics/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.0.1",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Diagnostics.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Diagnostics.dll": {}
+        }
+      },
+      "Microsoft.Owin.Host.HttpListener/4.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        }
+      },
+      "Microsoft.Owin.Host.SystemWeb/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.0.1",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {}
+        }
+      },
+      "Microsoft.Owin.Hosting/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.0.1",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        }
+      },
+      "Microsoft.Owin.SelfHost/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.0.1",
+          "Microsoft.Owin.Diagnostics": "4.0.1",
+          "Microsoft.Owin.Host.HttpListener": "4.0.1",
+          "Microsoft.Owin.Hosting": "4.0.1",
+          "Owin": "1.0.0"
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Owin/4.0.1": {
+      "sha512": "J3v8nn9ABr5rm22EOyvndAP/gjP2AnhhfZuI2A7lTPO4+j27SpVv6P/Zs29+/AzSpC8qkE6GIe43vodPMF5DpA==",
+      "type": "package",
+      "path": "microsoft.owin/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Owin.XML",
+        "lib/net45/Microsoft.Owin.dll",
+        "microsoft.owin.4.0.1.nupkg.sha512",
+        "microsoft.owin.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Diagnostics/4.0.1": {
+      "sha512": "tuhSi8K9fZzf+4AUrOhgt2HEKe7i0suPYzZBcEGi8nnAD0QV51TBh7UJZkcLzI4MJ7Ccu/B+hHB+36ho5r1JlQ==",
+      "type": "package",
+      "path": "microsoft.owin.diagnostics/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Owin.Diagnostics.XML",
+        "lib/net45/Microsoft.Owin.Diagnostics.dll",
+        "microsoft.owin.diagnostics.4.0.1.nupkg.sha512",
+        "microsoft.owin.diagnostics.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Host.HttpListener/4.0.1": {
+      "sha512": "KEBgoGR/Adx2sSJQoq+xjUrj6/QjzTMY2AtHbkafDvctBa1EkR1J0d4fFqxBXMJcEqR3f0uzB110eycC/itdbA==",
+      "type": "package",
+      "path": "microsoft.owin.host.httplistener/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Owin.Host.HttpListener.dll",
+        "lib/net45/Microsoft.Owin.Host.HttpListener.xml",
+        "microsoft.owin.host.httplistener.4.0.1.nupkg.sha512",
+        "microsoft.owin.host.httplistener.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Host.SystemWeb/4.0.1": {
+      "sha512": "nf5v52w+wkmxjLw4RsWtOOwgbnLlWio94mKrsa61MpYIfhLHJ4ipn4QAGeaxcF46JutOwM+Ch0toU3gBK9eDRw==",
+      "type": "package",
+      "path": "microsoft.owin.host.systemweb/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Owin.Host.SystemWeb.dll",
+        "lib/net45/Microsoft.Owin.Host.SystemWeb.xml",
+        "microsoft.owin.host.systemweb.4.0.1.nupkg.sha512",
+        "microsoft.owin.host.systemweb.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Hosting/4.0.1": {
+      "sha512": "tf/UPQ2Dnsz5xE24nlAVaeUO/iMrFzYdiHccZxXf1kfuM/TTFuS7n5tFVBoaDoZFk61WUsqweX4mrpYJ4ShSag==",
+      "type": "package",
+      "path": "microsoft.owin.hosting/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Owin.Hosting.XML",
+        "lib/net45/Microsoft.Owin.Hosting.dll",
+        "microsoft.owin.hosting.4.0.1.nupkg.sha512",
+        "microsoft.owin.hosting.nuspec"
+      ]
+    },
+    "Microsoft.Owin.SelfHost/4.0.1": {
+      "sha512": "l9Nf5GAfiVCVezuTNRanKQbjdt5ThGDXkJ6tye+gXu6RCHjifAIScdtcS6YNu5wLPVTkQ/MszW/vhv4NpCeu7g==",
+      "type": "package",
+      "path": "microsoft.owin.selfhost/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ReadMe.txt",
+        "microsoft.owin.selfhost.4.0.1.nupkg.sha512",
+        "microsoft.owin.selfhost.nuspec"
+      ]
+    },
+    "Owin/1.0.0": {
+      "sha512": "OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw==",
+      "type": "package",
+      "path": "owin/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Owin.dll",
+        "owin.1.0.0.nupkg.sha512",
+        "owin.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "Microsoft.Owin >= 4.0.1",
+      "Microsoft.Owin.Host.SystemWeb >= 4.0.1",
+      "Microsoft.Owin.SelfHost >= 4.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\amcla\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\amcla\\Documents\\GitHub\\SEScriptUploaderPlugin\\ScriptUploaderPlugin\\ScriptUploaderPlugin.csproj",
+      "projectName": "ScriptUploaderPlugin",
+      "projectPath": "C:\\Users\\amcla\\Documents\\GitHub\\SEScriptUploaderPlugin\\ScriptUploaderPlugin\\ScriptUploaderPlugin.csproj",
+      "packagesPath": "C:\\Users\\amcla\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\amcla\\Documents\\GitHub\\SEScriptUploaderPlugin\\ScriptUploaderPlugin\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\amcla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "Microsoft.Owin": {
+            "target": "Package",
+            "version": "[4.0.1, )"
+          },
+          "Microsoft.Owin.Host.SystemWeb": {
+            "target": "Package",
+            "version": "[4.0.1, )"
+          },
+          "Microsoft.Owin.SelfHost": {
+            "target": "Package",
+            "version": "[4.0.1, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
